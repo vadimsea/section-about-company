@@ -1,0 +1,31 @@
+.wrap-d{
+    display: flex;
+    width: 100%;
+}
+
+.wrap-d h4 {
+    color: #333;
+    font-size: 36px;
+    line-height: 1;
+    font-family: sans-serif;
+    margin-bottom: 16px;
+}
+
+.left-d{
+    flex-direction: column;
+    display: flex;
+    text-align: center;
+}
+
+.right-d{
+
+}
+
+
+@media only screen and (max-width: 800px) {
+    .wrap-d {
+        flex-direction: column;
+    }
+  }
+
+
